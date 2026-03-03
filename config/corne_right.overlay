@@ -1,12 +1,7 @@
 /*
  * Fix for nice!nano mounted components-down (flipped 180°)
- * - Reverses column GPIO order
- * - Swaps transform to act as the opposite half
+ * Reverses column GPIO order
  */
-
-&default_transform {
-    col-offset = <6>;
-};
 
 &kscan0 {
     col-gpios
